@@ -15,8 +15,13 @@ body {
     transition: all .3s ease-in-out;
         &:hover {
             background-color: #776228f0;
-            color: aliceblue;
+            color: aliceblue;                
     }    
+}
+
+#boton-home {
+    @extend .nav-item;
+    background-color: #ee5028e2;
 }
 
 .slide {
@@ -122,10 +127,7 @@ body {
 }
 
 .secondary-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-style: oblique;
-    color: $color-title;    
+    @include titulo-secundario;
 }
 
 .secondary-subtitle {
@@ -133,8 +135,10 @@ body {
     font-size: 20px;
 }
 
+
+
 .table-responsive {
-    margin: 10px;
+        margin: 10px;
     margin-top: 50px;
     margin-bottom: 40px;
 }

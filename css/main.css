@@ -27,11 +27,14 @@
 body {
   background-color: #ffe3cc; }
 
-.nav-item {
+.nav-item, #boton-home {
   transition: all .3s ease-in-out; }
-  .nav-item:hover {
+  .nav-item:hover, #boton-home:hover {
     background-color: #776228f0;
     color: aliceblue; }
+
+#boton-home {
+  background-color: #ee5028e2; }
 
 .slide {
   margin: 10px; }

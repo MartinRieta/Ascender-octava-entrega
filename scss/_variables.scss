@@ -1,2 +1,14 @@
 $color-title: #e02b14;
- 
+
+@mixin titulo-secundario {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 30px;
+    font-style: oblique;
+    color: $color-title;  
+}
+
+
+
+
+
+

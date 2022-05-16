@@ -1,0 +1,169 @@
+@import "variables";
+@import "index-header";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffe3cc;
+}
+
+
+.nav-item {
+    transition: all .3s ease-in-out;
+        &:hover {
+            background-color: #776228f0;
+            color: aliceblue;
+    }    
+}
+
+.slide {
+    margin: 10px;
+        img {
+            height: 75vh;
+    }    
+}
+
+.grilla {
+    display: grid;
+    grid-template-areas: 
+    "index-header"
+    "home-main"
+    "home-footer";
+}
+
+.home-main img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.card-body {
+    background-color: #ffe3cc98;
+}
+
+.card-text{
+    font-size: 12px;     
+}
+
+
+/*QUERIES INDEX*/
+
+@media screen and (min-width: 425px) {
+
+
+.index-header h1 {
+    font-size: 35px;
+    width: 400px;
+        h2 {
+            width: 400px;
+    }
+}
+    
+.home-main img{
+    width: 400px;
+}
+
+.home-footer p{
+    width: 400px;
+    font-size: 12px;     
+}
+}
+
+@media screen and (min-width: 545px) {
+
+.index-header h1 {
+    font-size: 40px;
+    width: 500px;
+        h2 {
+            font-size: 25px;
+            width: 500px;
+        }
+}
+    
+.home-main img{
+    width: 500px;
+}
+    
+}
+
+@media screen and (min-width: 768px) {
+
+.index-header h1 {
+    font-size: 45px;
+    width: 700px;
+        h2 {
+            font-size: 28px;
+            width: 700px;
+        }
+}
+    
+.home-main img{
+    width: 700px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+.index-header h1 {
+    font-size: 50px;
+    width: 900px;
+}        
+}
+
+
+/*Estilo de mis paginas secundarias*/
+
+.secondary-header {
+    margin: 10px;  
+}
+
+.secondary-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: $color-title;    
+}
+
+.secondary-subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.table-responsive {
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b8170be2;  
+}
+
+.links-recomendados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        a {
+            font-size: x-large;
+            color: black;
+        }
+}
+
+.maps-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}

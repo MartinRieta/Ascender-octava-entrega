@@ -50,10 +50,14 @@ body {
     background-color: #ffe3cc98;
 }
 
-.card-text{
-    font-size: 12px;     
+.home-footer {   
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    font-size: 10px;
+    margin-left: 20px;
 }
-
 
 /*QUERIES INDEX*/
 
@@ -71,6 +75,7 @@ body {
 .home-main img{
     width: 400px;
 }
+
 
 .home-footer p{
     width: 400px;

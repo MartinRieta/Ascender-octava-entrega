@@ -5,3 +5,6 @@ Agregue un MIXIN al estilo de todos los TITULOS SECUNDARIOS
 Agrego etiquetas meta KEYWORDS y DESCRIPTION al index y a las paginas secundarias
 
 Agrego TITLE a todas mis paginas
+
+Agrego FAVICON a todas mis paginas
+
